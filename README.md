@@ -6,7 +6,7 @@ Calculates CRC32-checksums (for bit-rot-detection only) for specified directorie
 - in subsequent runs
   - a crc-value for each file is calculated again
   - IF file modification time has not changed, the value is compared to the one in the sfv file
-  - IF a missmatch occurs, an e-mail is sent
+  - IF a mismatch occurs, an e-mail is sent
   - new checksums are written to a new sfv file, the old file is backed up 
 
 Usage: perl ccrc.pl
